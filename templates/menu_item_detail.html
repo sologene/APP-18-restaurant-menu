@@ -1,0 +1,17 @@
+  {% extends 'base.html'  %}
+  {% block content %}
+  <div class="mt-4", style="display: flex;
+justify-content: center;
+align-items: center;">
+    <div class="card text-center w-30 mb-30" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"> {{item.meal}}</h5>
+    <p class="card-text">{{item.description}}</p>
+    <a href="#" class="btn btn-primary">{{item.price}}</a>
+  </div>
+    </div>
+    </div>
+  </div>
+
+
+{% endblock content %}
